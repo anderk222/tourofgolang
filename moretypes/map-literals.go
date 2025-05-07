@@ -9,6 +9,6 @@ func MapLiterals() {
 		"Google":    Cordinate{33343.54, 34343.34434},
 	}
 
-	fmt.Println("\033[34m[MapLiterals]\033[0m", m)
+	fmt.Println("\033[33m[MapLiterals]\033[0m", m)
 
 }

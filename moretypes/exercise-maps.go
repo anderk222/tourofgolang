@@ -9,7 +9,7 @@ import (
 
 func ExcersiceMaps() {
 
-	fmt.Println("\x1b[34m[ExcersiceMaps]\x1b[0m")
+	fmt.Println("\x1b[33m[ExcersiceMaps]\x1b[0m")
 
 	wc.Test(WordCount)
 

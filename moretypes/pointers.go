@@ -12,11 +12,11 @@ func Pointers() {
 	i, j := 42, 2701
 
 	p := &i                                      // point to i
-	fmt.Println("\x1b[34m[Pointers]\x1b[0m", *p) // read i through the pointer
+	fmt.Println("\x1b[33m[Pointers]\x1b[0m", *p) // read i through the pointer
 	*p = 21                                      // set i through the pointer
-	fmt.Println("\x1b[34m[Pointers]\x1b[0m", i)  // see the new value of i
+	fmt.Println("\x1b[33m[Pointers]\x1b[0m", i)  // see the new value of i
 
 	p = &j                                      // point to j
 	*p = *p / 37                                // divide j through the pointer
-	fmt.Println("\x1b[34m[Pointers]\x1b[0m", j) // see the new value of j
+	fmt.Println("\x1b[33m[Pointers]\x1b[0m", j) // see the new value of j
 }

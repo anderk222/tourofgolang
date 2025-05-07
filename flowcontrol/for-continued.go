@@ -11,5 +11,5 @@ func ForContinued() {
 	for sum < 1000 {
 		sum += sum
 	}
-	fmt.Println("\x1b[34m[ForContinued]\x1b[0m", sum)
+	fmt.Println("\x1b[33m[ForContinued]\x1b[0m", sum)
 }

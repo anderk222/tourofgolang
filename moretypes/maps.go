@@ -12,6 +12,6 @@ func Maps() {
 
 	m["Bell Labs"] = Cordinate{40.68433, -74.3996}
 
-	fmt.Println("\x1b[34m[Maps]\x1b[0m", m["Bell Labs"])
+	fmt.Println("\x1b[33m[Maps]\x1b[0m", m["Bell Labs"])
 
 }

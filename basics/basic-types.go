@@ -14,7 +14,7 @@ var (
 )
 
 func BasicTypes() {
-	fmt.Printf("\033[34m[BasicTypes]\033[0m Type: %T Value: %v\n", ToBe, ToBe)
-	fmt.Printf("\033[34m[BasicTypes]\033[0m Type: %T Value: %v\n", MaxInt, MaxInt)
-	fmt.Printf("\033[34m[BasicTypes]\033[0m Type: %T Value: %v\n", z, z)
+	fmt.Printf("\033[33m[BasicTypes]\033[0m Type: %T Value: %v\n", ToBe, ToBe)
+	fmt.Printf("\033[33m[BasicTypes]\033[0m Type: %T Value: %v\n", MaxInt, MaxInt)
+	fmt.Printf("\033[33m[BasicTypes]\033[0m Type: %T Value: %v\n", z, z)
 }

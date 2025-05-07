@@ -25,6 +25,6 @@ func sqrtt(x float64) float64 {
 
 func ExerciseLoopsAndFuntions(x float64) {
 
-	fmt.Println("\x1b[34m[ExerciseLoopsAndFuntions]\x1b[0m x=", x, "raiz cuadrada=", sqrtt(x))
+	fmt.Println("\x1b[33m[ExerciseLoopsAndFuntions]\x1b[0m x=", x, "raiz cuadrada=", sqrtt(x))
 
 }

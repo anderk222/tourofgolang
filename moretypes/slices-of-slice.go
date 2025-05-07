@@ -20,6 +20,6 @@ func SlicesOfSlice() { // Create a tic-tac-toe board.
 	board[0][2] = "X"
 
 	for i := 0; i < len(board); i++ {
-		fmt.Printf("\x1b[34m[SlicesOfSlice]\x1b[0m  %s\n", strings.Join(board[i], " "))
+		fmt.Printf("\x1b[33m[SlicesOfSlice]\x1b[0m  %s\n", strings.Join(board[i], " "))
 	}
 }

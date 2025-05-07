@@ -25,8 +25,8 @@ func needFloat(x float64) float64 {
 
 func NumericConstants() {
 
-	fmt.Println("\x1b[34m[NumericConstants]\x1b[0m", needInt(Small))
-	fmt.Println("\x1b[34m[NumericConstants]\x1b[0m", needFloat(Small))
-	fmt.Println("\x1b[34m[NumericConstants]\x1b[0m", needFloat(Big))
+	fmt.Println("\x1b[33m[NumericConstants]\x1b[0m", needInt(Small))
+	fmt.Println("\x1b[33m[NumericConstants]\x1b[0m", needFloat(Small))
+	fmt.Println("\x1b[33m[NumericConstants]\x1b[0m", needFloat(Big))
 
 }

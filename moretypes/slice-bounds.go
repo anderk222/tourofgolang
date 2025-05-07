@@ -19,12 +19,12 @@ func SliceBounds() {
 	s := []int{2, 3, 5, 7, 11, 13}
 
 	s = s[1:4]
-	fmt.Println("\x1b[34m[SliceBounds]\x1b[0m", s)
+	fmt.Println("\x1b[33m[SliceBounds]\x1b[0m", s)
 
 	s = s[:2]
-	fmt.Println("\x1b[34m[SliceBounds]\x1b[0m", s)
+	fmt.Println("\x1b[33m[SliceBounds]\x1b[0m", s)
 
 	s = s[1:]
-	fmt.Println("\x1b[34m[SliceBounds]\x1b[0m", s)
+	fmt.Println("\x1b[33m[SliceBounds]\x1b[0m", s)
 
 }

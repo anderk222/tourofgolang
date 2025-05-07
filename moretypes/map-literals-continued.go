@@ -9,6 +9,6 @@ func MapLiteralsContinued() {
 		"Google":    {2343.3434, -1232.343434},
 	}
 
-	fmt.Println("\x1b[34m[MapLiteralsContinued]\x1b[0m", m)
+	fmt.Println("\x1b[33m[MapLiteralsContinued]\x1b[0m", m)
 
 }

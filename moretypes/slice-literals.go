@@ -5,10 +5,10 @@ import "fmt"
 func SliceLiterals() {
 
 	q := []int{2, 3, 5, 7, 11, 13}
-	fmt.Println("\033[34mSliceLiterals]\033[0m", q)
+	fmt.Println("\033[33mSliceLiterals]\033[0m", q)
 
 	r := []bool{true, false, true, true, false, true}
-	fmt.Println("\033[34mSliceLiterals]\033[0m", r)
+	fmt.Println("\033[33mSliceLiterals]\033[0m", r)
 
 	s := []struct {
 		i int
@@ -21,5 +21,5 @@ func SliceLiterals() {
 		{11, false},
 		{13, true},
 	}
-	fmt.Println("\033[34mSliceLiterals]\033[0m", s)
+	fmt.Println("\033[33mSliceLiterals]\033[0m", s)
 }

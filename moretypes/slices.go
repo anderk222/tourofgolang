@@ -13,6 +13,6 @@ func Slices() {
 
 	var ps []int = primes[1:3]
 
-	fmt.Println("\x1b[34m[Slices]\x1b[0m", s)
-	fmt.Println("\x1b[34m[Slices]\x1b[0m", ps)
+	fmt.Println("\x1b[33m[Slices]\x1b[0m", s)
+	fmt.Println("\x1b[33m[Slices]\x1b[0m", ps)
 }

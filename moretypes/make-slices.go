@@ -24,6 +24,6 @@ func MakeSlices() {
 
 }
 func printSlicee(s string, x []int) {
-	fmt.Printf("\x1b[34m[MakeSlices]\x1b[0m %s len=%d cap=%d %v\n",
+	fmt.Printf("\x1b[33m[MakeSlices]\x1b[0m %s len=%d cap=%d %v\n",
 		s, len(x), cap(x), x)
 }

@@ -9,5 +9,5 @@ func ShortVariableDeclarations() {
 	k := 3
 	c, python, java := true, false, "no!"
 
-	fmt.Println("\x1b[34m[ShortVariableDeclarations]\x1b[0m", i, j, k, c, python, java)
+	fmt.Println("\x1b[33m[ShortVariableDeclarations]\x1b[0m", i, j, k, c, python, java)
 }

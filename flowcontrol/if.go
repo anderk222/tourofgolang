@@ -14,6 +14,6 @@ func sqrt(x float64) string {
 
 func If() {
 
-	fmt.Println("\x1b[34m[If]\x1b[0m ", sqrt(2), sqrt(-4))
+	fmt.Println("\x1b[33m[If]\x1b[0m ", sqrt(2), sqrt(-4))
 
 }

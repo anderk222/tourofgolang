@@ -15,6 +15,6 @@ func StructPointers() {
 
 	p.X = 1e9
 
-	fmt.Println("\x1b[34m[StructPointers]\x1b[0m", p.X)
+	fmt.Println("\x1b[33m[StructPointers]\x1b[0m", p.X)
 
 }

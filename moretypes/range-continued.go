@@ -21,7 +21,7 @@ func RangeContinued() {
 		pow[i] = 1 << uint(i)
 	}
 	for _, value := range pow {
-		fmt.Printf("\x1b[34m[RangeContinued]\x1b[0m %d\n", value)
+		fmt.Printf("\x1b[33m[RangeContinued]\x1b[0m %d\n", value)
 	}
 
 }

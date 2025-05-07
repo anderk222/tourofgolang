@@ -19,7 +19,7 @@ import (
 
 func ExcersiceSlice() {
 
-	fmt.Println("\x1b[34m[ExcersiceSlice]\x1b[0m", Pic(10, 10))
+	fmt.Println("\x1b[33m[ExcersiceSlice]\x1b[0m", Pic(10, 10))
 
 	pic.Show(Pic)
 

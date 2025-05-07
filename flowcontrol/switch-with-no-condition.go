@@ -8,7 +8,7 @@ import (
 func SwitchWithNoCondition() {
 	t := time.Now()
 
-	fmt.Println("\033[34m[SwitchWithNoCondition]\033[0m")
+	fmt.Println("\033[33m[SwitchWithNoCondition]\033[0m")
 	switch {
 	case t.Hour() < 12:
 		fmt.Println("Good morning!")

@@ -22,5 +22,5 @@ func Append() {
 }
 
 func printSliceee(s []int) {
-	fmt.Printf("\033[34m[Append]\033[0m len=%d cap=%d %v\n", len(s), cap(s), s)
+	fmt.Printf("\033[33m[Append]\033[0m len=%d cap=%d %v\n", len(s), cap(s), s)
 }

@@ -17,13 +17,13 @@ func SlicesPointers() {
 		"George",
 		"Ringo",
 	}
-	fmt.Println("\x1b[34mSlicesPointers]\x1b[0m", names)
+	fmt.Println("\x1b[33mSlicesPointers]\x1b[0m", names)
 
 	a := names[0:2]
 	b := names[1:3]
-	fmt.Println("\x1b[34mSlicesPointers]\x1b[0m", a, b)
+	fmt.Println("\x1b[33mSlicesPointers]\x1b[0m", a, b)
 
 	b[0] = "XXX"
-	fmt.Println("\x1b[34mSlicesPointers]\x1b[0m", a, b)
-	fmt.Println("\x1b[34mSlicesPointers]\x1b[0m", names)
+	fmt.Println("\x1b[33mSlicesPointers]\x1b[0m", a, b)
+	fmt.Println("\x1b[33mSlicesPointers]\x1b[0m", names)
 }

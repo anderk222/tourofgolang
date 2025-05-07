@@ -15,6 +15,6 @@ func Zero() {
 	var f float64
 	var b bool
 	var s string
-	fmt.Printf("\x1b[34m[Zero]\x1b[0m %v %v %v %q\n", i, f, b, s)
+	fmt.Printf("\x1b[33m[Zero]\x1b[0m %v %v %v %q\n", i, f, b, s)
 
 }

@@ -11,5 +11,5 @@ var (
 
 func StructLiterals() {
 
-	fmt.Println("\x1b[34m[StructLiterals]\x1b[0m", v1, p, v2, v3)
+	fmt.Println("\x1b[33m[StructLiterals]\x1b[0m", v1, p, v2, v3)
 }

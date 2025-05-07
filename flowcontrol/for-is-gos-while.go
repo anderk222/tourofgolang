@@ -9,5 +9,5 @@ func ForIsGosWhile() {
 		sum += sum
 	}
 
-	fmt.Println("\x1b[34m[ForIsGoWhile]\x1b[0m", sum)
+	fmt.Println("\x1b[33m[ForIsGoWhile]\x1b[0m", sum)
 }

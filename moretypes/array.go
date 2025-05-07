@@ -8,16 +8,16 @@ func Array() {
 	a[0] = "Hello"
 	a[1] = "World"
 
-	fmt.Println("\x1b[34m[Array]\x1b[0m", a[0], a[1])
-	fmt.Println("\x1b[34m[Array]\x1b[0m", a)
+	fmt.Println("\x1b[33m[Array]\x1b[0m", a[0], a[1])
+	fmt.Println("\x1b[33m[Array]\x1b[0m", a)
 
 	primes := [6]int{2, 3, 5, 7, 11, 13}
-	fmt.Println("\x1b[34m[Array]\x1b[0m", primes)
+	fmt.Println("\x1b[33m[Array]\x1b[0m", primes)
 
 	vertexs := [2]Vertex{
 		{X: 1, Y: 2},
 		{X: 3, Y: 4},
 	}
 
-	fmt.Println("\x1b[34m[Array]\x1b[0m", vertexs)
+	fmt.Println("\x1b[33m[Array]\x1b[0m", vertexs)
 }

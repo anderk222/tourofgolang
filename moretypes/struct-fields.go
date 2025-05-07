@@ -8,6 +8,6 @@ func StructFields() {
 
 	v.X = 49
 
-	fmt.Println("\x1b[34m[StructFields]\x1b[0m", v.X)
+	fmt.Println("\x1b[33m[StructFields]\x1b[0m", v.X)
 
 }

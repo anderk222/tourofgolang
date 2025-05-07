@@ -23,7 +23,7 @@ func pow_with_else(x, n, lim float64) float64 {
 func IfAndElse() {
 
 	fmt.Println(
-		"\x1b[34m[IfAndElse]\x1b[0m",
+		"\x1b[33m[IfAndElse]\x1b[0m",
 		pow_with_else(3, 2, 10),
 		pow_with_else(3, 3, 20),
 	)

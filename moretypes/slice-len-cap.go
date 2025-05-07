@@ -20,5 +20,5 @@ func SliceLenCap() {
 }
 
 func printSlice(s []int) {
-	fmt.Printf("\x1b[34m[SliceLenCap]\x1b[0m len=%d cap=%d %v\n", len(s), cap(s), s)
+	fmt.Printf("\x1b[33m[SliceLenCap]\x1b[0m len=%d cap=%d %v\n", len(s), cap(s), s)
 }

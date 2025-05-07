@@ -7,11 +7,11 @@ import "fmt"
 
 func DeferMulti() {
 
-	fmt.Println("\x1b[34m[DeferMulti]\x1b[0m", "counting")
+	fmt.Println("\x1b[33m[DeferMulti]\x1b[0m", "counting")
 
 	for i := 0; i < 10; i++ {
-		defer fmt.Println("\x1b[34m[DeferMulti]\x1b[0m", i)
+		defer fmt.Println("\x1b[33m[DeferMulti]\x1b[0m", i)
 	}
 
-	fmt.Println("\x1b[34m[DeferMulti]\x1b[0m", "done")
+	fmt.Println("\x1b[33m[DeferMulti]\x1b[0m", "done")
 }

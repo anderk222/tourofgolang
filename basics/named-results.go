@@ -4,7 +4,7 @@ import "fmt"
 
 func NamedResults() {
 
-	fmt.Print("\x1b[34m[NamedResults]\x1b[0m ")
+	fmt.Print("\x1b[33m[NamedResults]\x1b[0m ")
 
 	fmt.Print(split(12))
 
